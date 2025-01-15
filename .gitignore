@@ -1,0 +1,18 @@
+# Xilinx ISE/Vivado generated files
+*.log
+*.jou
+*.rpt
+*.html
+*.xml
+*.debug
+*.str
+*.xmsgs
+*.cmd
+*.tcl~
+*.sh~
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/

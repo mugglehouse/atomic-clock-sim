@@ -1,2 +1,3 @@
 # Xilinx ISE/Vivado generated files
-*.sim/
+*.men
+*.reloc

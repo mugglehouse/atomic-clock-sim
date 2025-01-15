@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Mon Jan 13 15:55:11 2025
+# Process ID: 29552
+# Current directory: D:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.runs/jesd204_dac_synth_1
+# Command line: vivado.exe -log jesd204_dac.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source jesd204_dac.tcl
+# Log file: D:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.runs/jesd204_dac_synth_1/jesd204_dac.vds
+# Journal file: D:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.runs/jesd204_dac_synth_1\vivado.jou
+#-----------------------------------------------------------
+source jesd204_dac.tcl -notrace

@@ -1,0 +1,103 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Mon Jan 13 15:57:23 2025
+# Process ID: 29288
+# Current directory: D:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.runs/jesd204_phy_dac_synth_1
+# Command line: vivado.exe -log jesd204_phy_dac.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source jesd204_phy_dac.tcl
+# Log file: D:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.runs/jesd204_phy_dac_synth_1/jesd204_phy_dac.vds
+# Journal file: D:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.runs/jesd204_phy_dac_synth_1\vivado.jou
+#-----------------------------------------------------------
+source jesd204_phy_dac.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 370.465 ; gain = 160.258
+INFO: [Synth 8-638] synthesizing module 'jesd204_phy_dac' [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/synth/jesd204_phy_dac.v:53]
+INFO: [Synth 8-638] synthesizing module 'jesd204_phy_dac_support' [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/synth/jesd204_phy_dac_support.v:52]
+INFO: [Synth 8-638] synthesizing module 'jesd204_phy_dac_block' [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/synth/jesd204_phy_dac_block.v:54]
+INFO: [Synth 8-638] synthesizing module 'jesd204_phy_dac_sync_block' [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/synth/jesd204_phy_dac_sync_block.v:77]
+INFO: [Synth 8-638] synthesizing module 'xpm_cdc_async_rst' [E:/vivado/Vivado/2016.4/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:884]
+INFO: [Synth 8-256] done synthesizing module 'xpm_cdc_async_rst' (1#1) [E:/vivado/Vivado/2016.4/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:884]
+INFO: [Synth 8-638] synthesizing module 'FD' [E:/vivado/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3723]
+INFO: [Synth 8-256] done synthesizing module 'FD' (2#1) [E:/vivado/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3723]
+INFO: [Synth 8-256] done synthesizing module 'jesd204_phy_dac_sync_block' (3#1) [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/synth/jesd204_phy_dac_sync_block.v:77]
+INFO: [Synth 8-638] synthesizing module 'jesd204_phy_dac_gt' [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/ip_0/jesd204_phy_dac_gt.v:73]
+INFO: [Synth 8-638] synthesizing module 'jesd204_phy_dac_gt_init' [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/ip_0/jesd204_phy_dac_gt_init.v:71]
+INFO: [Synth 8-638] synthesizing module 'jesd204_phy_dac_gt_multi_gt' [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/ip_0/jesd204_phy_dac_gt_multi_gt.v:70]
+INFO: [Synth 8-638] synthesizing module 'jesd204_phy_dac_gt_GT' [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/ip_0/jesd204_phy_dac_gt_gt.v:71]
+INFO: [Synth 8-638] synthesizing module 'GTXE2_CHANNEL' [E:/vivado/Vivado/2016.4/scripts/rt/data/unisim_comp.v:10526]
+INFO: [Synth 8-256] done synthesizing module 'GTXE2_CHANNEL' (4#1) [E:/vivado/Vivado/2016.4/scripts/rt/data/unisim_comp.v:10526]
+INFO: [Synth 8-256] done synthesizing module 'jesd204_phy_dac_gt_GT' (5#1) [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/ip_0/jesd204_phy_dac_gt_gt.v:71]
+INFO: [Synth 8-638] synthesizing module 'jesd204_phy_dac_gt_cpll_railing' [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/ip_0/jesd204_phy_dac_gt_cpll_railing.v:68]
+INFO: [Synth 8-638] synthesizing module 'BUFH' [E:/vivado/Vivado/2016.4/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-256] done synthesizing module 'BUFH' (6#1) [E:/vivado/Vivado/2016.4/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-256] done synthesizing module 'jesd204_phy_dac_gt_cpll_railing' (7#1) [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/ip_0/jesd204_phy_dac_gt_cpll_railing.v:68]
+INFO: [Synth 8-256] done synthesizing module 'jesd204_phy_dac_gt_multi_gt' (8#1) [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/ip_0/jesd204_phy_dac_gt_multi_gt.v:70]
+INFO: [Synth 8-638] synthesizing module 'jesd204_phy_dac_gt_TX_STARTUP_FSM' [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/ip_0/jesd204_phy_dac_gt/example_design/jesd204_phy_dac_gt_tx_startup_fsm.v:94]
+INFO: [Synth 8-638] synthesizing module 'jesd204_phy_dac_gt_sync_block' [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/ip_0/jesd204_phy_dac_gt/example_design/jesd204_phy_dac_gt_sync_block.v:78]
+INFO: [Synth 8-256] done synthesizing module 'jesd204_phy_dac_gt_sync_block' (9#1) [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/ip_0/jesd204_phy_dac_gt/example_design/jesd204_phy_dac_gt_sync_block.v:78]
+INFO: [Synth 8-256] done synthesizing module 'jesd204_phy_dac_gt_TX_STARTUP_FSM' (10#1) [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/ip_0/jesd204_phy_dac_gt/example_design/jesd204_phy_dac_gt_tx_startup_fsm.v:94]
+INFO: [Synth 8-638] synthesizing module 'jesd204_phy_dac_gt_RX_STARTUP_FSM' [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/ip_0/jesd204_phy_dac_gt/example_design/jesd204_phy_dac_gt_rx_startup_fsm.v:94]
+INFO: [Synth 8-256] done synthesizing module 'jesd204_phy_dac_gt_RX_STARTUP_FSM' (11#1) [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/ip_0/jesd204_phy_dac_gt/example_design/jesd204_phy_dac_gt_rx_startup_fsm.v:94]
+INFO: [Synth 8-256] done synthesizing module 'jesd204_phy_dac_gt_init' (12#1) [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/ip_0/jesd204_phy_dac_gt_init.v:71]
+INFO: [Synth 8-256] done synthesizing module 'jesd204_phy_dac_gt' (13#1) [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/ip_0/jesd204_phy_dac_gt.v:73]
+INFO: [Synth 8-638] synthesizing module 'jesd204_phy_dac_sync_block__parameterized0' [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/synth/jesd204_phy_dac_sync_block.v:77]
+INFO: [Synth 8-638] synthesizing module 'xpm_cdc_single' [E:/vivado/Vivado/2016.4/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:99]
+INFO: [Synth 8-256] done synthesizing module 'xpm_cdc_single' (14#1) [E:/vivado/Vivado/2016.4/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:99]
+INFO: [Synth 8-256] done synthesizing module 'jesd204_phy_dac_sync_block__parameterized0' (14#1) [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/synth/jesd204_phy_dac_sync_block.v:77]
+INFO: [Synth 8-638] synthesizing module 'jesd204_phy_dac_sync_block__parameterized1' [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/synth/jesd204_phy_dac_sync_block.v:77]
+INFO: [Synth 8-256] done synthesizing module 'jesd204_phy_dac_sync_block__parameterized1' (14#1) [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/synth/jesd204_phy_dac_sync_block.v:77]
+INFO: [Synth 8-638] synthesizing module 'jesd204_phy_dac_sync_block__parameterized2' [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/synth/jesd204_phy_dac_sync_block.v:77]
+INFO: [Synth 8-256] done synthesizing module 'jesd204_phy_dac_sync_block__parameterized2' (14#1) [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/synth/jesd204_phy_dac_sync_block.v:77]
+INFO: [Synth 8-638] synthesizing module 'jesd204_phy_dac_sync_block__parameterized3' [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/synth/jesd204_phy_dac_sync_block.v:77]
+INFO: [Synth 8-256] done synthesizing module 'jesd204_phy_dac_sync_block__parameterized3' (14#1) [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/synth/jesd204_phy_dac_sync_block.v:77]
+INFO: [Synth 8-256] done synthesizing module 'jesd204_phy_dac_block' (15#1) [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/synth/jesd204_phy_dac_block.v:54]
+INFO: [Synth 8-638] synthesizing module 'jesd204_phy_dac_gt_common_wrapper' [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/synth/jesd204_phy_dac_gt_common_wrapper.v:56]
+INFO: [Synth 8-638] synthesizing module 'jesd204_phy_dac_gtwizard_0_common' [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/synth/jesd204_phy_dac_gtwizard_0_common.v:69]
+INFO: [Synth 8-638] synthesizing module 'GTXE2_COMMON' [E:/vivado/Vivado/2016.4/scripts/rt/data/unisim_comp.v:11199]
+INFO: [Synth 8-256] done synthesizing module 'GTXE2_COMMON' (16#1) [E:/vivado/Vivado/2016.4/scripts/rt/data/unisim_comp.v:11199]
+INFO: [Synth 8-256] done synthesizing module 'jesd204_phy_dac_gtwizard_0_common' (17#1) [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/synth/jesd204_phy_dac_gtwizard_0_common.v:69]
+INFO: [Synth 8-256] done synthesizing module 'jesd204_phy_dac_gt_common_wrapper' (18#1) [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/synth/jesd204_phy_dac_gt_common_wrapper.v:56]
+INFO: [Synth 8-256] done synthesizing module 'jesd204_phy_dac_support' (19#1) [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/synth/jesd204_phy_dac_support.v:52]
+INFO: [Synth 8-256] done synthesizing module 'jesd204_phy_dac' (20#1) [d:/NewLand/Learn/Verilog/clock/project/TEST/prj/testbench/testbench.srcs/sources_1/ip/jesd204_phy_dac/synth/jesd204_phy_dac.v:53]
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 412.965 ; gain = 202.758
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 412.965 ; gain = 202.758
+INFO: [Device 21-403] Loading part xc7k325tfbg676-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 762.969 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 762.969 ; gain = 552.762
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 762.969 ; gain = 552.762
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 762.969 ; gain = 552.762
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:27 . Memory (MB): peak = 762.969 ; gain = 552.762
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:30 . Memory (MB): peak = 762.969 ; gain = 552.762
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:38 . Memory (MB): peak = 762.969 ; gain = 552.762
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:38 . Memory (MB): peak = 762.969 ; gain = 552.762
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:39 . Memory (MB): peak = 762.969 ; gain = 552.762
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:39 . Memory (MB): peak = 762.969 ; gain = 552.762
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:39 . Memory (MB): peak = 762.969 ; gain = 552.762
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:39 . Memory (MB): peak = 762.969 ; gain = 552.762
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:40 . Memory (MB): peak = 762.969 ; gain = 552.762
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:40 . Memory (MB): peak = 762.969 ; gain = 552.762
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:40 . Memory (MB): peak = 762.969 ; gain = 552.762
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |BUFH          |     1|
+|2     |CARRY4        |    91|
+|3     |GTXE2_CHANNEL |     8|
+|4     |GTXE2_COMMON  |     2|
+|5     |LUT1          |   356|
+|6     |LUT2          |    62|
+|7     |LUT3          |    21|
+|8     |LUT4          |    74|
+|9     |LUT5          |   339|
+|10    |LUT6          |    70|
+|11    |MUXF7         |     2|
+|12    |SRLC32E       |     7|
+|13    |FD            |    98|
+|14    |FDCE          |    38|
+|15    |FDRE          |   434|
+|16    |FDSE          |    13|
++------+--------------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:40 . Memory (MB): peak = 762.969 ; gain = 552.762
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:40 . Memory (MB): peak = 1268.934 ; gain = 984.344

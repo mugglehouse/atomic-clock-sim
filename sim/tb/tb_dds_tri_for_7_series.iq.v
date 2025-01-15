@@ -8,38 +8,6 @@ reg sys_clk;
 reg sys_rst_n;
 
 wire pulse_user;
-wire [15:0] i0;
-wire [15:0] i1;
-wire [15:0] i2;
-wire [15:0] i3;
-wire [15:0] i4;
-wire [15:0] i5;
-wire [15:0] i6;
-wire [15:0] i7;
-wire [15:0] i8;
-wire [15:0] i9;
-wire [15:0] i10;
-wire [15:0] i11;
-wire [15:0] i12;
-wire [15:0] i13;
-wire [15:0] i14;
-wire [15:0] i15;
-wire [15:0] q0;
-wire [15:0] q1;
-wire [15:0] q2;
-wire [15:0] q3;
-wire [15:0] q4;
-wire [15:0] q5;
-wire [15:0] q6;
-wire [15:0] q7;
-wire [15:0] q8;
-wire [15:0] q9;
-wire [15:0] q10;
-wire [15:0] q11;
-wire [15:0] q12;
-wire [15:0] q13;
-wire [15:0] q14;
-wire [15:0] q15;
 
 // 2. 系统时钟沿
 always #(CLK_PERIOD/2) sys_clk=~sys_clk;
@@ -47,9 +15,9 @@ always #(CLK_PERIOD/2) sys_clk=~sys_clk;
 // 3. 仿真模块
 initial begin
     sys_clk <= 1'b0;
-    sys_rst_n <= 1'b1;
-    #200
     sys_rst_n <= 1'b0;
+    #200
+    sys_rst_n <= 1'b1;
 end
 
 // 4. 例化被测模块
@@ -94,7 +62,7 @@ dds_tri_for_7_series_iq u_dds_tri_for_7_series_iq (
     .DDS_AMP_VIO(16'd12500),
     .DDS_DC_OFFSET_VIO(16'd0),
     .DDS_MODE_VIO(4'b0),
-    .DDS_FIN_kHz_VIO(32'd10000),
+    .DDS_FIN_MHz_VIO(32'd1),
     .DDS_FIN_HEX_VIO(32'd0),
     .DDS_PRT_WIDTH_VIO(32'd0),
     .DDS_PRT_CYCLE_VIO(32'd0),
@@ -102,8 +70,8 @@ dds_tri_for_7_series_iq u_dds_tri_for_7_series_iq (
     .DDS_ATT_0p1dB_VIO(32'd0),
     .DDS_FREQHOPSPEED_VIO(32'd0),
     .DDS_FREQHOP_kHz_VIO(32'd0),
-    .DDS_FREQHOP_START_kHz_VIO(32'd0),
-    .DDS_FREQHOP_STOP_kHz_VIO(32'd0),
+    .DDS_FREQHOP_START_MHz_VIO(32'd0),
+    .DDS_FREQHOP_STOP_MHz_VIO(32'd0),
     .DDS_IMD_INTERVAL_kHz_VIO(32'd0),
     .dds_rsv_port_o()
 );
